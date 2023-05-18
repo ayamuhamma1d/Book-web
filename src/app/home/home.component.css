@@ -1,0 +1,25 @@
+        .full-width-table {
+            width: 100%;
+        }
+        
+        tbody>tr:last-child>td {
+            border-bottom-width: 0;
+        }
+        
+        a {
+            transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: #ad5389 !important;
+        }
+        
+        table {
+            width: 100%;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+        }

@@ -1,0 +1,39 @@
+    .side-bar {
+        color: #fff;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: #ad5389;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #3c1053, #ad5389);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .active {
+        background-color: #ad5389;
+        color: var(--color-white);
+        width: 100%;
+    }
+    
+    .size {
+        width: 15%;
+    }
+    
+    .link {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+    
+    .link:hover {
+        margin-left: 1rem;
+        color: #ad5389 !important;
+    }

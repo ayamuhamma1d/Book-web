@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root {
+    --light-color: #f0f3f2;
+    --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family: 'EB Garamond', serif;
+    --color-primary: #7388ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8d81;
+    --color-info-light: #3c1053;
+    --color-dark: #363949;
+    --color-light: #rgba(132, 139, 200, 0, 18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+body {
+    /* background: #ad5389;
+    background: -webkit-linear-gradient(to right, #ad5389, #3c1053);
+    background: linear-gradient(to right, #ad5389, #3c1053); */
+    font-family: var(--font-family) !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
